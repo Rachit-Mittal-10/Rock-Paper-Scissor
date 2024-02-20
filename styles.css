@@ -1,0 +1,52 @@
+p{
+    padding: 2px;
+    margin: 0px;
+}
+h1{
+    margin: 5px;
+    padding: 0px;
+}
+.choice-container{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+}
+
+.choice-button{
+    padding: 8px 12px 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    background-color: rgb(76, 0, 255);
+    color: white;
+}
+
+#rock:hover,
+#paper:hover,
+#scissor:hover{
+    padding: 12px 20px 12px 20px;
+}
+
+.result{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap; 
+}
+
+.points-table{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.player-column,
+.computer-column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
